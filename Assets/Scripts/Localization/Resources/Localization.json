@@ -1,0 +1,113 @@
+﻿{
+    "RU": {
+        "Interface": [
+            {
+                "Id": 1,
+                "Content": "Закончить чтение"
+            },
+            {
+                "Id": 2,
+                "Content": "Вы возродитесь через {0}"
+            },
+            {
+                "Id": 3,
+                "Content": "Вы проиграли"
+            },
+            {
+                "Id": 4,
+                "Content": "Создание уровня"
+            },
+            {
+                "Id": 5,
+                "Content": "Начать игру"
+            },
+            {
+                "Id": 6,
+                "Content": "Настройки"
+            }
+        ],
+        "Inscriptions": [
+            {
+                "Id": 1,
+                "Title": "Руководство для новичка",
+                "Content": "Руководство"
+            }
+        ],
+        "Replicas": [
+            {
+                "Id": 1,
+                "Content": "Какого? Где я?"
+            },
+            {
+                "Id": 2,
+                "Content": "Нужно осмотреть комнату"
+            }
+        ],
+        "InteractableObjects": [
+            {
+                "Id": 1,
+                "Content": "Фильтр для противогаза"
+            },
+            {
+                "Id": 2,
+                "Content": "Фонарь"
+            }
+        ]
+    },
+
+    "EN": {
+        "Interface": [
+            {
+                "Id": 1,
+                "Content": "End reading"
+            },
+            {
+                "Id": 2,
+                "Content": "You will respawn in {0}"
+            },
+            {
+                "Id": 3,
+                "Content": "You lost"
+            },
+            {
+                "Id": 4,
+                "Content": "Creating level"
+            },
+            {
+                "Id": 5,
+                "Content": "Start game"
+            },
+            {
+                "Id": 6,
+                "Content": "Settings"
+            }
+        ],
+        "Inscriptions": [
+            {
+                "Id": 1,
+                "Title": "Beginer's guidance",
+                "Content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+            }
+        ],
+        "Replicas": [
+            {
+                "Id": 1,
+                "Content": "What? Where am I?"
+            },
+            {
+                "Id": 2,
+                "Content": "Need to look around the room"
+            }
+        ],
+        "InteractableObjects": [
+            {
+                "Id": 1,
+                "Content": "Gas mask filter"
+            },
+            {
+                "Id": 2,
+                "Content": "Flashlight"
+            }
+        ]
+    }
+}

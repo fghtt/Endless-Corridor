@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: rooms
+  m_EditorClassIdentifier: 
+  m_GroupName: rooms
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 289fb5a774d6e48c79197b30257b0457
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e2dfe15bb14e949f89c7658cda7853e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb8b44feb21aa4835a2848b737d344e8, type: 2}
+    - {fileID: 11400000, guid: 5f74f6642085b4f1ea6b1d7a31c2f88b, type: 2}

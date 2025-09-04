@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TextWindow.uss?fileID=7433441132597879392&amp;guid=769dda39b0b5b45eeb5b959202aa2574&amp;type=3#TextWindow" />
+    <Style src="project://database/Assets/UI/MainMenuButton.uss?fileID=7433441132597879392&amp;guid=ec12255a443ed45bc8112ece826186cb&amp;type=3#MainMenuButton" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(77, 74, 74, 0.85); width: 80%; margin-left: 10%; height: 0; margin-top: 40px; margin-bottom: 40px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="close-window-button" class="back-button" style="margin-left: 10px; height: 50px;" />
+        <ui:VisualElement style="flex-grow: 1; width: 80%; margin-left: 10%; margin-top: 20px;">
+            <ui:Label tabindex="-1" text="Sensitivity" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 22px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+            <ui:Slider label="Slider" high-value="100" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; width: 50%; margin-left: 25%;">
+            <ui:VisualElement style="flex-grow: 1; width: 50%;">
+                <ui:Button text="English" parse-escape-sequences="true" display-tooltip-when-elided="true" class="change-language-button" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 50%;">
+                <ui:Button text="Русский" parse-escape-sequences="true" display-tooltip-when-elided="true" class="change-language-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

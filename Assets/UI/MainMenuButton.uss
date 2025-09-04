@@ -1,0 +1,28 @@
+.menu-button {
+    justify-content: flex-start;
+    align-self: auto;
+    width: 30%;
+    background-color: rgba(164, 164, 164, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu-button:hover {
+    transition-duration: 0.8s;
+    scale: 1 1;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

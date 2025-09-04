@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TextWindow.uss?fileID=7433441132597879392&amp;guid=769dda39b0b5b45eeb5b959202aa2574&amp;type=3#TextWindow" />
+    <Style src="project://database/Assets/UI/MainMenuButton.uss?fileID=7433441132597879392&amp;guid=ec12255a443ed45bc8112ece826186cb&amp;type=3#MainMenuButton" />
+    <ui:VisualElement style="flex-grow: 1; width: 30%; margin-left: 5%; justify-content: center;">
+        <ui:Button text="Start game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGameButton" class="menu-button" style="width: 100%; margin-top: 0; margin-left: 0; justify-content: center;" />
+        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" style="width: 100%; margin-top: 4%; margin-left: 0; justify-content: center;" />
+    </ui:VisualElement>
+</ui:UXML>
